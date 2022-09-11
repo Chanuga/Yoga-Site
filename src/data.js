@@ -17,7 +17,7 @@ export const nav = [
   { name: 'FAQ', href: '/' },
 ];
 
-export const Banner = {
+export const banner = {
   titlePart1: 'Get the best part of your day',
   titlePart2: '– you fit here.',
   subtitle:

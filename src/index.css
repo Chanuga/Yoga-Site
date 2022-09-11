@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-secondary text-neutral-400;
+    @apply font-secondary text-neutral-400 bg-[#e5e5e5];
   }
   h1,
   h2,
@@ -40,5 +40,20 @@
   }
   .text-body-lg {
     @apply font-secondary font-normal text-[24px] leading-[34px];
+  }
+  .btn {
+    @apply flex justify-center items-center;
+  }
+  .btn-sm {
+    @apply font-primary font-bold uppercase text-[12px] leading-[18px] h-[42px] px-[30px] tracking-[1px];
+  }
+  .btn-lg {
+    @apply font-primary font-bold uppercase text-[14px] leading-[18px] h-[46px] px-[40px] tracking-[1px];
+  }
+  .btn-primary {
+    @apply bg-primary-200 text-neutral-100;
+  }
+  .btn-secondary {
+    @apply bg-white text-neutral-500;
   }
 }

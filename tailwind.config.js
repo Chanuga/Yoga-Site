@@ -7,8 +7,7 @@ module.exports = {
     },
     container: {
       padding: {
-        DEFAULT: '1rem',
-        lg: '0',
+        DEFAULT: '0',
       },
     },
     screens: {
@@ -25,18 +24,16 @@ module.exports = {
           300: '25c870',
         },
         neutral: {
-          100: '#cfcfde',
+          100: '#ffffff',
           200: '#dedee3',
           300: '#9797a1',
           400: '#595962',
           500: '#131316',
         },
+        page: '#fcfcff',
       },
       backgroundImage: {
-        // circle: "url('/src/assets/img/hero/bg.png')",
-      },
-      boxShadow: {
-        primary: '0px 18px 36px rgba(0, 0, 0, 0.05)',
+        banner: "url('/src/assets/img/banner/bg.png')",
       },
     },
   },
