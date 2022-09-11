@@ -42,7 +42,7 @@
     @apply font-secondary font-normal text-[24px] leading-[34px];
   }
   .btn {
-    @apply flex justify-center items-center;
+    @apply flex justify-center items-center rounded-[1px];
   }
   .btn-sm {
     @apply font-primary font-bold uppercase text-[12px] leading-[18px] h-[42px] px-[30px] tracking-[1px];
