@@ -51,9 +51,9 @@
     @apply font-primary font-bold uppercase text-[14px] leading-[18px] h-[46px] px-[40px] tracking-[1px];
   }
   .btn-primary {
-    @apply bg-primary-200 text-neutral-100;
+    @apply bg-primary-200 text-neutral-100 hover:bg-primary-200/90 transition;
   }
   .btn-secondary {
-    @apply bg-white text-neutral-500;
+    @apply bg-white text-neutral-500 hover:bg-white/90 transition;
   }
 }
