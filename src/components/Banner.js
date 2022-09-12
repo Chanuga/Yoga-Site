@@ -39,7 +39,7 @@ const Banner = () => {
           <div
             className='bg-purple-50 w-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1'
             data-aos='fade-right'
-            data-aos-delay='800'
+            data-aos-delay='900'
           ></div>
         </div>
       </div>
