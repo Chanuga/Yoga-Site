@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 // import header data
 import { header } from '../data';
@@ -11,19 +11,27 @@ import NavMobile from './NavMobile';
 import { RiMenu4Fill, RiCloseFill } from 'react-icons/ri';
 
 const Header = () => {
+  const [isActive, setIsActive] = useState(false);
   const [navMobile, setNavMobile] = useState(false);
+
+  useEffect(() => {
+    // scroll event
+    window.addEventListener('scroll', () => {
+      window.scrollY > 80 ? setIsActive(true) : setIsActive(false);
+    });
+  });
+
   // destructure header data
   const { logo, btnLoginText, btnSignupText } = header;
   return (
     <header
-      className='fixed max-w-[1440px] left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] py-[20px] z-30'
-      data-aos='fade-down'
-      data-aos-duration='1000'
-      data-aos-delay='2000'
+      className={`${
+        isActive ? 'bg-neutral-500 py-[15px]' : 'bg-transparent'
+      } fixed max-w-[1440px] left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] py-[20px] z-30 transition-all duration-300`}
     >
       {/* logo */}
       <a href='/'>
-        <img src={logo} alt='' />
+        <img className='h-[30px]' src={logo} alt='' />
       </a>
 
       {/* nav - initially hidden - show in desktop mode */}
