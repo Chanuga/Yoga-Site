@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 // import components
 import Banner from './components/Banner';
 import Header from './components/Header';
+import About from './components/About';
 
 const App = () => {
   // aos initialization
@@ -18,6 +19,7 @@ const App = () => {
     <div className='max-w-[1440px] mx-auto bg-page overflow-hidden relative'>
       <Header />
       <Banner />
+      <About />
       <div className='h-[4000px]'></div>
     </div>
   );

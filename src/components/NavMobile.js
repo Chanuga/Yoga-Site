@@ -22,7 +22,10 @@ const NavMobile = ({ navMobile }) => {
         })}
       </ul>
       {/* buttons */}
-      <div></div>
+      <div className='-mt-44 flex justify-center gap-x-8'>
+        <button className='btn btn-lg text-white'>Log in</button>
+        <button className='btn btn-lg btn-primary'>Sign up</button>
+      </div>
     </nav>
   );
 };
