@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section className='py-[80px] md:py-[110px] lg:pt-[140px] lg:pb-[180px]'>
       <div className='container mx-auto px-[20px] lg:px-[135px]'>
-        {/* title & icon */}
+        {/* section title */}
         <div
           className='section__title-group'
           data-aos='fade-up'

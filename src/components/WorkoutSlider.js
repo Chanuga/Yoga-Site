@@ -39,10 +39,10 @@ const WorkoutSlider = () => {
         const { image, name } = program;
         return (
           <SwiperSlide
-            className='max-w-[320px] max-h-[320px] relative'
+            className='max-w-[320px] max-h-[320px] relative bg-purple-200'
             key={idx}
           >
-            <img src={image} alt='' />
+            <img className='w-full h-full object-cover' src={image} alt='' />
             <div className='absolute left-[20px] bottom-[20px] bg-white h-[26px] px-[14px] flex items-center justify-center rounded-[1px]'>
               <div className='font-primary font-semibold text-sm text-neutral-500'>
                 {name}

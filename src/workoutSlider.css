@@ -18,11 +18,18 @@
 }
 
 .swiper-button-prev {
-  left: 88%;
+  left: 88.4%;
   background-image: url('../src/assets/img/workouts/icons/chevron-left.svg');
 }
 
 .swiper-button-next {
   background-image: url('../src/assets/img/workouts/icons/chevron-right.svg');
   right: 66px;
+}
+
+@media (max-width: 1300px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
 }
