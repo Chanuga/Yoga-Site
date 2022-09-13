@@ -8,18 +8,18 @@ import { IoIosArrowDroprightCircle } from 'react-icons/io';
 
 const About = () => {
   // destructure about data
-  const { title, subtitle1, subtitle2, usersIcon, link } = about;
+  const { title, subtitle1, subtitle2, icon, link } = about;
   return (
     <section className='py-[80px] md:py-[110px] lg:pt-[140px] lg:pb-[180px]'>
       <div className='container mx-auto px-[20px] lg:px-[135px]'>
         {/* title & icon */}
         <div
-          className='flex items-center mb-8 -space-x-20'
+          className='section__title-group'
           data-aos='fade-up'
           data-aos-delay='100'
         >
-          <img src={usersIcon} alt='' />
-          <h2 className='h2 flex -space-x-4'>
+          <img src={icon} alt='' />
+          <h2 className='h2 section__title'>
             {title} <span className='text-primary-200'>.</span>
           </h2>
         </div>

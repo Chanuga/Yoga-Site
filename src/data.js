@@ -1,6 +1,13 @@
-// import images & icons
+// images
 import Logo from '../src/assets/img/header/logo.svg';
+import ResistanceImg from '../src/assets/img/workouts/resistance.png';
+import BoxingImg from '../src/assets/img/workouts/boxing.png';
+import BodyPumpImg from '../src/assets/img/workouts/body-pump.png';
+import YogaImg from '../src/assets/img/workouts/yoga.png';
+import FullBodyImg from '../src/assets/img/workouts/full-body.png';
+// icons
 import UsersIcn from '../src/assets/img/about/users-icn.svg';
+import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg';
 
 export const header = {
   logo: Logo,
@@ -27,11 +34,38 @@ export const banner = {
 };
 
 export const about = {
-  usersIcon: UsersIcn,
+  icon: UsersIcn,
   title: 'Our misson',
   subtitle1:
     'We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff, and premier exercise equipment, which supports our members in meeting their individual fitness goals.',
   subtitle2:
     'The strength of our heart-felt identity is utilized to inspire every person that steps foot into our gyms to better themselves.',
   link: 'Join Now',
+};
+
+export const workouts = {
+  icon: CalendarIcn,
+  title: 'Training programs',
+  programs: [
+    {
+      image: ResistanceImg,
+      name: 'Resistance',
+    },
+    {
+      image: BoxingImg,
+      name: 'Boxing',
+    },
+    {
+      image: BodyPumpImg,
+      name: 'Body Pump',
+    },
+    {
+      image: YogaImg,
+      name: 'Yoga',
+    },
+    {
+      image: FullBodyImg,
+      name: 'Full Body',
+    },
+  ],
 };

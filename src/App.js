@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import Banner from './components/Banner';
 import Header from './components/Header';
 import About from './components/About';
+import Workouts from './components/Workouts';
 
 const App = () => {
   // aos initialization
@@ -20,6 +21,7 @@ const App = () => {
       <Header />
       <Banner />
       <About />
+      <Workouts />
       <div className='h-[4000px]'></div>
     </div>
   );
