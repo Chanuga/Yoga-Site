@@ -5,6 +5,8 @@ import BoxingImg from '../src/assets/img/workouts/boxing.png';
 import BodyPumpImg from '../src/assets/img/workouts/body-pump.png';
 import YogaImg from '../src/assets/img/workouts/yoga.png';
 import FullBodyImg from '../src/assets/img/workouts/full-body.png';
+import FitnessImg from '../src/assets/img/workouts/fitness.png';
+import BattleRopeImg from '../src/assets/img/workouts/battle-rope.png';
 // icons
 import UsersIcn from '../src/assets/img/about/users-icn.svg';
 import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg';
@@ -66,6 +68,14 @@ export const workouts = {
     {
       image: FullBodyImg,
       name: 'Full Body',
+    },
+    {
+      image: FitnessImg,
+      name: 'Fitness',
+    },
+    {
+      image: BattleRopeImg,
+      name: 'Battle Rope',
     },
   ],
 };
