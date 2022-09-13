@@ -79,3 +79,8 @@ export const workouts = {
     },
   ],
 };
+
+export const pricing = {
+  icon: CalendarIcn,
+  title: 'Training programs',
+};
