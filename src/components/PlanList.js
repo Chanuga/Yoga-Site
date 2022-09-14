@@ -23,7 +23,7 @@ const PlanList = ({ plans }) => {
               className={`${
                 currentIndex === index
                   ? 'bg-neutral-500 text-white'
-                  : 'bg-neutral-400/20 text-neutral-500'
+                  : 'bg-neutral-400/10 text-neutral-500'
               } flex justify-center items-center min-h-[520px] transition duration-100`}
             >
               <div className='flex flex-row lg:flex-col gap-x-8 gap-y-8 lg:gap-x-0'>
