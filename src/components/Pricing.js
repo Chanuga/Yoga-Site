@@ -1,14 +1,14 @@
 import React from 'react';
 
 // import data
-import { workouts } from '../data';
+import { pricing } from '../data';
 
 // import components
-import WorkoutSlider from './WorkoutSlider';
+import PlanList from './PlanList';
 
-const Workouts = () => {
-  // destructure workouts data
-  const { title, icon } = workouts;
+const Pricing = () => {
+  // destructure pricing
+  const { icon, title, plans } = pricing;
   return (
     <section className='section'>
       {/* section title */}
@@ -22,12 +22,10 @@ const Workouts = () => {
           {title} <span className='text-primary-200'>.</span>
         </h2>
       </div>
-      {/* slider */}
-      <div data-aos='fade-up' data-aos-delay='300'>
-        <WorkoutSlider />
-      </div>
+      {/* plan list */}
+      <PlanList plans={plans} />
     </section>
   );
 };
 
-export default Workouts;
+export default Pricing;

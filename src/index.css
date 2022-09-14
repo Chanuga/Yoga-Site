@@ -59,8 +59,11 @@
   .link {
     @apply text-neutral-500 text-sm uppercase font-extrabold tracking-[1px];
   }
+  .section {
+    @apply pb-[80px] md:pb-[110px] lg:pb-[180px];
+  }
   .section__title-group {
-    @apply flex items-center -space-x-20 mb-[50px] lg:mb-[80px];
+    @apply flex items-center justify-center -space-x-20 mb-[50px] lg:mb-[80px];
   }
   .section__title {
     @apply flex -space-x-4;

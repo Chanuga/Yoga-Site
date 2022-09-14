@@ -9,6 +9,7 @@ import Banner from './components/Banner';
 import Header from './components/Header';
 import About from './components/About';
 import Workouts from './components/Workouts';
+import Pricing from './components/Pricing';
 
 const App = () => {
   // aos initialization
@@ -22,6 +23,7 @@ const App = () => {
       <Banner />
       <About />
       <Workouts />
+      <Pricing />
       <div className='h-[4000px]'></div>
     </div>
   );

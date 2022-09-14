@@ -14,7 +14,7 @@ const About = () => {
       <div className='container mx-auto px-[20px] lg:px-[135px]'>
         {/* section title */}
         <div
-          className='section__title-group'
+          className='section__title-group justify-start'
           data-aos='fade-up'
           data-aos-delay='100'
         >

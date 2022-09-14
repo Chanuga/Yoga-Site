@@ -10,6 +10,7 @@ import BattleRopeImg from '../src/assets/img/workouts/battle-rope.png';
 // icons
 import UsersIcn from '../src/assets/img/about/users-icn.svg';
 import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg';
+import PriceImg from '../src/assets/img/pricing/icons/price.svg';
 
 export const header = {
   logo: Logo,
@@ -81,6 +82,38 @@ export const workouts = {
 };
 
 export const pricing = {
-  icon: CalendarIcn,
-  title: 'Training programs',
+  icon: PriceImg,
+  title: 'Pricing plan',
+  plans: [
+    {
+      name: 'Basic',
+      price: '20',
+      list: [
+        { name: 'unlimited gym access' },
+        { name: '1 training programs' },
+        { name: 'free fitness consultation' },
+      ],
+    },
+    {
+      name: 'Premium',
+      price: '35',
+      list: [
+        { name: 'unlimited gym access' },
+        { name: '5 training programs' },
+        { name: 'free fitness consultation' },
+        { name: 'personal trainer' },
+      ],
+    },
+    {
+      name: 'Elite',
+      price: '49',
+      list: [
+        { name: 'unlimited gym access' },
+        { name: 'all training programs' },
+        { name: 'free fitness consultation' },
+        { name: 'personal trainer' },
+        { name: '50% off drinks' },
+      ],
+    },
+  ],
 };
