@@ -93,6 +93,7 @@ export const pricing = {
         { name: '1 training programs' },
         { name: 'free fitness consultation' },
       ],
+      delay: 600,
     },
     {
       name: 'Premium',
@@ -103,6 +104,7 @@ export const pricing = {
         { name: 'free fitness consultation' },
         { name: 'personal trainer' },
       ],
+      delay: 800,
     },
     {
       name: 'Elite',
@@ -114,6 +116,7 @@ export const pricing = {
         { name: 'personal trainer' },
         { name: '50% off drinks' },
       ],
+      delay: 1000,
     },
   ],
 };
