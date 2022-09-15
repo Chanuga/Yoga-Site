@@ -23,7 +23,7 @@ const Faq = () => {
           </h2>
         </div>
         {/* accordion list */}
-        <div className='flex flex-col gap-y-4 px-8'>
+        <div className='flex flex-col gap-y-4 px-4'>
           {accordions.map((accordion, idx) => {
             return <Accordion accordion={accordion} key={idx} />;
           })}
