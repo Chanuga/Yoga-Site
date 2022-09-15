@@ -15,7 +15,7 @@ const PlanList = ({ plans }) => {
             onClick={() => setIndex(currentIndex)}
             key={currentIndex}
             data-aos='fade-up'
-            data-aos-offset='500'
+            data-aos-offset='200'
             data-aos-delay={delay}
             className='w-full md:max-w-[620px] lg:max-w-[405px] rounded-sm px-4 lg:min-h-[550px]'
           >
