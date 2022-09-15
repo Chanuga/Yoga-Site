@@ -156,3 +156,33 @@ export const community = {
     },
   ],
 };
+
+export const faq = {
+  title: 'FAQ',
+  testimonials: [
+    {
+      image: CommunityImg1,
+      name: 'Mark A.',
+      message:
+        '“Great location, great price and great, helpful people. What to want more?”',
+    },
+    {
+      image: CommunityImg2,
+      name: 'Lauren K.',
+      message:
+        '“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”',
+    },
+    {
+      image: CommunityImg3,
+      name: 'Jhon D.',
+      message:
+        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+    },
+    {
+      image: CommunityImg4,
+      name: 'Anne R.',
+      message:
+        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+    },
+  ],
+};
