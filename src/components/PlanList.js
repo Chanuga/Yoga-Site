@@ -6,7 +6,7 @@ import { BsCheckCircleFill } from 'react-icons/bs';
 const PlanList = ({ plans }) => {
   const [index, setIndex] = useState(0);
   return (
-    <div className='flex flex-col justify-between items-center lg:flex-row max-w-[1280px] mx-auto gap-y-4'>
+    <div className='flex flex-col lg:flex-row items-center justify-center max-w-[1280px] mx-auto gap-y-4'>
       {plans.map((plan, currentIndex) => {
         // destructure plan
         const { name, price, list, delay } = plan;
@@ -17,16 +17,16 @@ const PlanList = ({ plans }) => {
             data-aos='fade-up'
             data-aos-offset='100'
             data-aos-delay={delay}
-            className='w-full max-w-[336px] md:max-w-[620px] lg:max-w-[405px] min-h-[520px] rounded-sm'
+            className='w-full md:max-w-[620px] lg:max-w-[405px] rounded-sm px-4 lg:min-h-[550px]'
           >
             <div
               className={`${
                 currentIndex === index
                   ? 'bg-neutral-500 text-white'
                   : 'bg-neutral-400/10 text-neutral-500'
-              } flex justify-center items-center min-h-[520px] transition duration-100`}
+              } flex justify-center items-center p-[40px] lg:min-h-[550px] transition duration-100`}
             >
-              <div className='flex flex-row lg:flex-col gap-x-8 gap-y-8 lg:gap-x-0'>
+              <div className='flex flex-row lg:flex-col gap-x-8 gap-y-8 lg:gap-x-0 items-center'>
                 {/* name & price wrapper */}
                 <div>
                   {/* name */}
@@ -70,7 +70,7 @@ const PlanList = ({ plans }) => {
                       currentIndex === index
                         ? 'bg-white text-neutral-500'
                         : 'border border-neutral-500'
-                    } btn btn-lg rounded-[1px] mx-auto`}
+                    } btn btn-lg rounded-[1px] lg:mx-auto`}
                   >
                     Join now
                   </button>
