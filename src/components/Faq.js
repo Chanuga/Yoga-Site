@@ -2,10 +2,12 @@ import React from 'react';
 
 // import data
 import { faq } from '../data';
+// import components
+import Accordion from './Accordion';
 
 const Faq = () => {
   // destructure faq data
-  const { title, testimonials } = faq;
+  const { title, accordions } = faq;
   return (
     <section className='section pt-[480px] lg:pt-[280px]'>
       <div className='max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-contain min-h-[1160px]'>
@@ -19,6 +21,12 @@ const Faq = () => {
           <h2 className='h2 section-title lg:mt-[100px]'>
             {title} <span className='text-primary-200'>.</span>
           </h2>
+        </div>
+        {/* accordion list */}
+        <div className='flex flex-col gap-y-4 px-8'>
+          {accordions.map((accordion, idx) => {
+            return <Accordion accordion={accordion} key={idx} />;
+          })}
         </div>
       </div>
     </section>

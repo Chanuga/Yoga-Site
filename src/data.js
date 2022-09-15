@@ -159,30 +159,36 @@ export const community = {
 
 export const faq = {
   title: 'FAQ',
-  testimonials: [
+  accordions: [
     {
-      image: CommunityImg1,
-      name: 'Mark A.',
-      message:
-        '“Great location, great price and great, helpful people. What to want more?”',
+      question: 'How can I book a workout class?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      image: CommunityImg2,
-      name: 'Lauren K.',
-      message:
-        '“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”',
+      question: 'Can I pay by cash for my membership?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      image: CommunityImg3,
-      name: 'Jhon D.',
-      message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+      question: 'What age do I need to be to join?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      image: CommunityImg4,
-      name: 'Anne R.',
-      message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+      question: 'Are there any lockers?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'How do I cancel my membership?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
+    },
+    {
+      question: 'Is there water available at the gym?',
+      answer:
+        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
   ],
 };
