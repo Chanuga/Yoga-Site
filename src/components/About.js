@@ -14,12 +14,12 @@ const About = () => {
       <div className='container mx-auto px-[20px] lg:px-[135px]'>
         {/* section title */}
         <div
-          className='section__title-group justify-start'
+          className='section-title-group justify-start'
           data-aos='fade-up'
           data-aos-delay='100'
         >
           <img src={icon} alt='' />
-          <h2 className='h2 section__title'>
+          <h2 className='h2 section-title'>
             {title} <span className='text-primary-200'>.</span>
           </h2>
         </div>

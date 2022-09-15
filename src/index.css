@@ -62,10 +62,10 @@
   .section {
     @apply pb-[80px] md:pb-[110px] lg:pb-[180px];
   }
-  .section__title-group {
+  .section-title-group {
     @apply flex items-center justify-center -space-x-20 mb-[50px] lg:mb-[80px];
   }
-  .section__title {
+  .section-title {
     @apply flex -space-x-4;
   }
 }

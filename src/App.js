@@ -10,6 +10,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Workouts from './components/Workouts';
 import Pricing from './components/Pricing';
+import Community from './components/Community';
 
 const App = () => {
   // aos initialization
@@ -24,6 +25,7 @@ const App = () => {
       <About />
       <Workouts />
       <Pricing />
+      <Community />
       <div className='h-[4000px]'></div>
     </div>
   );
