@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // import swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const CommunitySlider = ({ testimonials }) => {
   return (
@@ -14,7 +14,7 @@ const CommunitySlider = ({ testimonials }) => {
       centeredSlides={'auto'}
       grabCursor={true}
       modules={[]}
-      className='mySwiper'
+      className='communitySlider'
     >
       {testimonials.map((testimonial, idx) => {
         // destructure testimonial
