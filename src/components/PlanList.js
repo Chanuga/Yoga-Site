@@ -15,7 +15,7 @@ const PlanList = ({ plans }) => {
             onClick={() => setIndex(currentIndex)}
             key={currentIndex}
             data-aos='fade-up'
-            data-aos-offset='100'
+            data-aos-offset='500'
             data-aos-delay={delay}
             className='w-full md:max-w-[620px] lg:max-w-[405px] rounded-sm px-4 lg:min-h-[550px]'
           >
@@ -24,7 +24,7 @@ const PlanList = ({ plans }) => {
                 currentIndex === index
                   ? 'bg-neutral-500 text-white'
                   : 'bg-neutral-400/10 text-neutral-500'
-              } flex justify-center items-center p-[40px] lg:min-h-[550px] transition duration-100`}
+              } flex justify-center items-center py-[40px] px-[30px] lg:min-h-[550px] transition duration-100`}
             >
               <div className='flex flex-row lg:flex-col gap-x-8 gap-y-8 lg:gap-x-0 items-center'>
                 {/* name & price wrapper */}
@@ -40,7 +40,7 @@ const PlanList = ({ plans }) => {
                     {name}
                   </div>
                   {/* price */}
-                  <div className='text-[50px] font-primary font-extrabold text-center flex flex-col items-center justify-center'>
+                  <div className='text-[40px] lg:text-[50px] font-primary font-extrabold text-center flex flex-col items-center justify-center'>
                     <div className='leading-none'>
                       <span className='tracking-[0.1px]'>{price}</span>
                       <span className='text-[30px] font-extrabold'>$</span>
@@ -58,7 +58,9 @@ const PlanList = ({ plans }) => {
                           className='flex items-center gap-x-[10px]'
                           key={idx}
                         >
-                          <BsCheckCircleFill className='text-lg' />
+                          <div>
+                            <BsCheckCircleFill className='text-lg' />
+                          </div>
                           <div>{item.name}</div>
                         </li>
                       );

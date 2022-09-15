@@ -11,10 +11,10 @@ const Community = () => {
   const { icon, title, testimonials } = community;
   return (
     <section>
-      <div className='flex'>
+      <div className='container mx-auto'>
         {/* section title */}
         <div
-          className='section-title-group max-w-[240px] mx-auto px-4 lg:px-0 flex-1'
+          className='section-title-group max-w-[240px] px-4 lg:px-0 lg:ml-0 mx-auto'
           data-aos='fade-up'
           data-aos-delay='200'
         >
@@ -23,8 +23,9 @@ const Community = () => {
             {title} <span className='text-primary-200'>.</span>
           </h2>
         </div>
-        <div className='w-[900px]'>
-          <CommunitySlider />
+        {/* slider */}
+        <div className='w-[1144px] absolute -right-[260px]'>
+          <CommunitySlider testimonials={testimonials} />
         </div>
       </div>
     </section>

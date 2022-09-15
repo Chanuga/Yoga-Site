@@ -1,15 +1,15 @@
-.swiper {
+.workoutSlider .swiper {
   height: 420px;
   /* background: pink; */
 }
 
-.swiper-button-prev::after,
-.swiper-button-next::after {
+.workoutSlider .swiper-button-prev::after,
+.workoutSlider .swiper-button-next::after {
   content: '';
 }
 
-.swiper-button-prev,
-.swiper-button-next {
+.workoutSlider .swiper-button-prev,
+.workoutSlider .swiper-button-next {
   top: 96%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,22 +17,22 @@
   height: 36px;
 }
 
-.swiper-button-prev {
+.workoutSlider .swiper-button-prev {
   left: 88.4%;
   background-image: url('../src/assets/img/workouts/icons/chevron-left.svg');
 }
 
-.swiper-button-next {
+.workoutSlider .swiper-button-next {
   background-image: url('../src/assets/img/workouts/icons/chevron-right.svg');
   right: 66px;
 }
 
 @media (max-width: 1300px) {
-  .swiper {
+  .workoutSlider .swiper {
     height: auto;
   }
-  .swiper-button-prev,
-  .swiper-button-next {
+  .workoutSlider .swiper-button-prev,
+  .workoutSlider .swiper-button-next {
     display: none;
   }
 }

@@ -11,22 +11,34 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper';
 
-const CommunitySlider = () => {
+const CommunitySlider = ({ testimonials }) => {
   return (
     <Swiper
       slidesPerView={3}
       spaceBetween={32}
-      centeredSlides={false}
-      pagination={{
-        clickable: true,
-      }}
-      modules={[Pagination]}
-      className='mySwiper w-full'
+      centeredSlides={'auto'}
+      modules={[]}
+      className=''
     >
-      <SwiperSlide className='bg-pink-100'>Slide 1</SwiperSlide>
-      <SwiperSlide className='bg-pink-100'>Slide 2</SwiperSlide>
-      <SwiperSlide className='bg-pink-100'>Slide 3</SwiperSlide>
-      <SwiperSlide className='bg-pink-100'>Slide 4</SwiperSlide>
+      {testimonials.map((testimonial, idx) => {
+        // destructure testimonial
+        const { image, name, message } = testimonial;
+        return (
+          <SwiperSlide key={idx}>
+            <div className='relative w-[360px] h-[480px]'>
+              {/* image */}
+              <div>
+                <img src={image} alt='' />
+              </div>
+              {/* message & name */}
+              <div className='absolute bottom-[30px] p-[20px]'>
+                <div className='mb-8'>{message}</div>
+                <div>{name}</div>
+              </div>
+            </div>
+          </SwiperSlide>
+        );
+      })}
     </Swiper>
   );
 };
