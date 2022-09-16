@@ -203,3 +203,8 @@ export const join = {
     'We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.',
   btnText: 'Join now',
 };
+
+export const footer = {
+  logo: Logo,
+  copyrightText: 'All rights reserved. Gymme 2022.',
+};

@@ -13,6 +13,7 @@ import Pricing from './components/Pricing';
 import Community from './components/Community';
 import Faq from './components/Faq';
 import Join from './components/Join';
+import Footer from './components/Footer';
 
 const App = () => {
   // aos initialization
@@ -30,7 +31,8 @@ const App = () => {
       <Community />
       <Faq />
       <Join />
-      <div className='h-[4000px]'></div>
+      <Footer />
+      {/* <div className='h-[4000px]'></div> */}
     </div>
   );
 };
