@@ -12,11 +12,21 @@ const Join = () => {
         {/* image & text wrapper */}
         <div className='flex flex-col md:flex-row md:items-center md:-space-x-12 -space-y-24 lg:-space-y-0'>
           {/* image */}
-          <div className='-mt-[80px] max-w-[276px] md:max-w-[442px] lg:max-w-full'>
+          <div
+            className='-mt-[80px] max-w-[276px] md:max-w-[442px] lg:max-w-full'
+            data-aos='fade-right'
+            data-aos-offset='100'
+            data-aos-delay='200'
+          >
             <img src={image} alt='' />
           </div>
           {/* text */}
-          <div className='max-w-[350px] lg:max-w-[492px] ml-[30px]'>
+          <div
+            className='max-w-[350px] lg:max-w-[492px] ml-[30px]'
+            data-aos='fade-left'
+            data-aos-offset='100'
+            data-aos-delay='200'
+          >
             <h2 className='h1 md:text-[60px] md:leading-[62px] text-white mb-4 lg:mb-6'>
               Wanna join <span className='text-primary-200'>&</span> have fun?
             </h2>
