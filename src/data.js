@@ -11,6 +11,7 @@ import CommunityImg1 from '../src/assets/img/community/img1.png';
 import CommunityImg2 from '../src/assets/img/community/img2.png';
 import CommunityImg3 from '../src/assets/img/community/img3.png';
 import CommunityImg4 from '../src/assets/img/community/img4.png';
+import JoinImg from '../src/assets/img/join/woman.png';
 // icons
 import UsersIcn from '../src/assets/img/about/icons/users-icn.svg';
 import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg';
@@ -193,4 +194,12 @@ export const faq = {
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
   ],
+};
+
+export const join = {
+  image: JoinImg,
+  title: 'Wanna join & have fun?',
+  subtitle:
+    'We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.',
+  btnText: 'Join now',
 };
