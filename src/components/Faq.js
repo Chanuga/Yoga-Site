@@ -2,22 +2,24 @@ import React from 'react';
 
 // import data
 import { faq } from '../data';
+
 // import components
 import Accordion from './Accordion';
 
 const Faq = () => {
   // destructure faq data
-  const { title, accordions } = faq;
+  const { icon, title, accordions } = faq;
   return (
     <section className='section pt-[480px] lg:pt-[280px]'>
       <div className='max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-contain min-h-[1160px]'>
         {/* section title */}
         <div
-          className='section-title-group max-w-[540px] mx-auto px-4 lg:px-0'
+          className='section-title-group -space-x-4 max-w-[540px] mx-auto px-4 lg:px-0'
           data-aos='fade-up'
           data-aos-offset='200'
           data-aos-delay='200'
         >
+          <img className='md:hidden' src={icon} alt='' />
           <h2 className='h2 section-title lg:mt-[100px]'>
             {title} <span className='text-primary-200'>.</span>
           </h2>

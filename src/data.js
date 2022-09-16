@@ -16,6 +16,7 @@ import UsersIcn from '../src/assets/img/about/icons/users-icn.svg';
 import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg';
 import PriceIcn from '../src/assets/img/pricing/icons/price.svg';
 import CommunityIcn from '../src/assets/img/community/icons/community-icn.svg';
+import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg';
 
 export const header = {
   logo: Logo,
@@ -158,6 +159,7 @@ export const community = {
 };
 
 export const faq = {
+  icon: QuestionMarkIcn,
   title: 'FAQ',
   accordions: [
     {
