@@ -36,6 +36,12 @@ module.exports = {
         banner: "url('/src/assets/img/banner/bg.png')",
         faq: "url('/src/assets/img/faq/bg.svg')",
       },
+      backgroundSize: {
+        auto: 'auto',
+        cover: 'cover',
+        contain: 'contain',
+        custom: '95%',
+      },
     },
   },
   plugins: [],

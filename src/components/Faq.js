@@ -11,7 +11,7 @@ const Faq = () => {
   const { icon, title, accordions } = faq;
   return (
     <section className='section pt-[480px] lg:pt-[280px]'>
-      <div className='max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-contain min-h-[1160px]'>
+      <div className='max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-custom bg-center lg:h-[1160px]'>
         {/* section title */}
         <div
           className='section-title-group justify-start lg:justify-center -space-x-4 lg:max-w-[540px] mx-auto px-4 lg:px-0'
