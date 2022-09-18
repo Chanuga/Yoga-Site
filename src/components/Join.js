@@ -30,7 +30,7 @@ const Join = () => {
             <h2 className='h1 md:text-[60px] md:leading-[62px] text-white mb-4 lg:mb-6'>
               Wanna join <span className='text-primary-200'>&</span> have fun?
             </h2>
-            <p className='textt-body-sm md:text-body-md text-white mb-4 lg:mb-6 max-w-[348px] md:max-w-[470px] lg:max-w-[492px]'>
+            <p className='text-body-sm md:text-body-md text-white mb-4 lg:mb-6 max-w-[348px] md:max-w-[470px] lg:max-w-[492px]'>
               {subtitle}
             </p>
             <button className='btn btn-secondary btn-lg'>{btnText}</button>
