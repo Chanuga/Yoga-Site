@@ -14,6 +14,8 @@ import Community from './components/Community';
 import Faq from './components/Faq';
 import Join from './components/Join';
 import Footer from './components/Footer';
+import ContactMe from './components/ContactMe';
+import Contact from './components/Contact';
 
 const App = () => {
   // aos initialization
@@ -31,6 +33,8 @@ const App = () => {
       <Community />
       <Faq />
       <Join />
+      {/* <ContactMe /> */}
+      <Contact />
       <Footer />
       {/* <div className='h-[4000px]'></div> */}
     </div>

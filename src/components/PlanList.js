@@ -5,6 +5,13 @@ import { BsCheckCircleFill } from 'react-icons/bs';
 
 const PlanList = ({ plans }) => {
   const [index, setIndex] = useState(0);
+
+  const selectPlan = (plan, currentIndex) => {
+    debugger
+    console.log("plan, currentIndex", plan, currentIndex);
+    
+  }
+
   return (
     <div className='flex flex-col lg:flex-row items-center justify-center max-w-[1280px] mx-auto gap-y-4'>
       {plans.map((plan, currentIndex) => {
@@ -35,7 +42,7 @@ const PlanList = ({ plans }) => {
                       currentIndex === index
                         ? 'bg-white text-neutral-500'
                         : 'bg-neutral-500 text-white'
-                    } h-[26px] font-primary text-sm font-semibold max-w-min mx-auto px-[14px] flex items-center justify-center mb-8`}
+                    } h-[50px] font-primary text-sm font-semibold max-w-min mx-auto px-[14px] flex items-center justify-center mb-8`}
                   >
                     {name}
                   </div>
@@ -73,6 +80,7 @@ const PlanList = ({ plans }) => {
                         ? 'bg-white text-neutral-500'
                         : 'border border-neutral-500'
                     } btn btn-lg rounded-[1px] lg:mx-auto`}
+                    onClick={() => selectPlan(plan, currentIndex)}
                   >
                     Join now
                   </button>

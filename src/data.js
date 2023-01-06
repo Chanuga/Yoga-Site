@@ -21,17 +21,17 @@ import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg';
 
 export const header = {
   logo: Logo,
-  btnLoginText: 'Log in',
-  btnSignupText: 'Sign Up',
+  // btnLoginText: 'Log in',
+  // btnSignupText: 'Sign Up',
 };
 
 export const nav = [
   { name: 'Home', href: '/' },
-  { name: 'About', href: '/' },
-  { name: 'Workouts', href: '/' },
-  { name: 'Pricing', href: '/' },
-  { name: 'Community', href: '/' },
-  { name: 'FAQ', href: '/' },
+  { name: 'Programs', href: '/' },
+  { name: 'Events', href: '/' },
+  { name: 'About us', href: '/' },
+  { name: 'Gallery', href: '/' },
+  { name: 'Contact me', href: '/' },
 ];
 
 export const banner = {
@@ -90,38 +90,49 @@ export const workouts = {
 
 export const pricing = {
   icon: PriceIcn,
-  title: 'Pricing plan',
+  title: 'Payment plan',
   plans: [
     {
-      name: 'Basic',
-      price: '20',
+      name: 'For Beginners',
+      price: '55',
       list: [
-        { name: 'unlimited gym access' },
-        { name: '1 training programs' },
-        { name: 'free fitness consultation' },
+        { name: '1 hour sessions' },
+        { name: 'Twice a week' },
+        { name: 'No cancelations' },
+        { name: 'Necessary support and guidance will be given'}
+      ],
+      delay: 400,
+    },
+    {
+      name: 'Intermediate Level',
+      price: '60',
+      list: [
+        { name: '1 hour sessions' },
+        { name: 'Twice a week' },
+        { name: 'No cancelations' },
+        { name: 'Necessary support and guidance will be given'}
       ],
       delay: 600,
     },
     {
-      name: 'Premium',
-      price: '35',
+      name: 'Daily Yoga',
+      price: '65',
       list: [
-        { name: 'unlimited gym access' },
-        { name: '5 training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
+        { name: '1 hour sessions' },
+        { name: '5 Days a week' },
+        { name: 'No cancelations' },
+        { name: 'Necessary support and guidance will be given'},
       ],
       delay: 800,
     },
     {
-      name: 'Elite',
-      price: '49',
+      name: 'Advanced Level',
+      price: '70',
       list: [
-        { name: 'unlimited gym access' },
-        { name: 'all training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
-        { name: '50% off drinks' },
+        { name: '1.30 hour sessions' },
+        { name: 'Twice a week' },
+        { name: 'No cancelations' },
+        { name: 'Necessary support and guidance will be given'}
       ],
       delay: 1000,
     },
@@ -206,5 +217,56 @@ export const join = {
 
 export const footer = {
   logo: Logo,
-  copyrightText: 'All rights reserved. Gymme 2022.',
+  copyrightText: 'All rights reserved. Cloudily 2023.',
+};
+
+export const contact = {
+  icon: PriceIcn,
+  title: 'Contact Me',
+  plans: [
+    {
+      name: 'Yoga Center',
+      // price: '55',
+      list: [
+        { name: '37, Hotel road, Mount Lavinia' },
+        // { name: 'Twice a week' },
+        // { name: 'No cancelations' },
+        // { name: 'Necessary support and guidance will be given'}
+      ],
+      delay: 400,
+    },
+    {
+      name: 'Let’s talk',
+      // price: '60',
+      list: [
+        { name: '0094 77 521 8242' },
+        // { name: 'Twice a week' },
+        // { name: 'No cancelations' },
+        // { name: 'Necessary support and guidance will be given'}
+      ],
+      delay: 600,
+    },
+    {
+      name: 'Email address',
+      // price: '65',
+      list: [
+        { name: 'vidyodhayayoga@gmail.com' },
+        // { name: '5 Days a week' },
+        // { name: 'No cancelations' },
+        // { name: 'Necessary support and guidance will be given'},
+      ],
+      delay: 800,
+    },
+    {
+      name: 'Customer service',
+      // price: '70',
+      list: [
+        { name: '0779520843' },
+        // { name: 'Twice a week' },
+        // { name: 'No cancelations' },
+        // { name: 'Necessary support and guidance will be given'}
+      ],
+      delay: 1000,
+    },
+  ],
 };

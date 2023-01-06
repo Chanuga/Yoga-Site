@@ -38,12 +38,12 @@ const Header = () => {
       <Nav />
 
       {/* buttons - initally hidden - show in desktop mode */}
-      <div className='hidden lg:flex space-x-4'>
+      {/* <div className='hidden lg:flex space-x-4'>
         <button className='btn btn-sm text-white hover:text-primary-200 transition'>
           {btnLoginText}
         </button>
         <button className='btn btn-sm btn-primary'>{btnSignupText}</button>
-      </div>
+      </div> */}
 
       {/* nav menu button - hide on desktop */}
       <div

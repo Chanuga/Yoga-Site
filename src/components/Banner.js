@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Typed from 'react-typed';
 // import data
 import { banner } from '../data';
 
@@ -17,7 +17,16 @@ const Banner = () => {
               data-aos-delay='500'
             >
               {titlePart1} <br />
-              <span className='text-primary-200'>{titlePart2}</span>
+              <span className='text-primary-200'>
+              <Typed
+          className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
+            strings={[`${titlePart2}`]}
+            typeSpeed={120}
+            backSpeed={140}
+            loop
+          />
+          {/* {titlePart2} */}
+          </span>
             </h1>
             <p
               className='max-w-[415px] text-body-md lg:text-body-lg mb-8'
